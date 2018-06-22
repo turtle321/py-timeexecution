@@ -1,7 +1,7 @@
 from datetime import datetime
 
 import mock
-from elasticsearch.exceptions import TransportError
+from elasticsearch6.exceptions import TransportError
 from fqn_decorators import get_fqn
 from freezegun import freeze_time
 from tests.conftest import Dummy, go

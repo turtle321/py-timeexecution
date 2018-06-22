@@ -3,8 +3,8 @@ from __future__ import absolute_import
 import logging
 from datetime import datetime
 
-from elasticsearch import Elasticsearch
-from elasticsearch.exceptions import TransportError
+from elasticsearch6 import Elasticsearch
+from elasticsearch6.exceptions import TransportError
 from time_execution.backends.base import BaseMetricsBackend
 
 logger = logging.getLogger(__file__)
